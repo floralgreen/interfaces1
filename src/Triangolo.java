@@ -36,7 +36,7 @@ public class Triangolo implements Forma{
     @Override
     public void stampaArea() {
         int area = (this.base * this.altezza) / 2;
-        System.out.println("L'area del " + this.nomeFigura.toLowerCase() + " è: " + this.base + " x " + this.altezza +
-                " = " + area);
+        System.out.println("L'area del " + this.nomeFigura.toLowerCase() + " è: (" + this.base + " x " + this.altezza +
+                ") / 2 = " + area);
     }
 }
